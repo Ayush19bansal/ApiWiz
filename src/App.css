@@ -79,20 +79,22 @@
 }
 .counterdiv{
   display: flex;
-  width: 400px;
-  border: 1px solid gray;
+  flex-wrap: wrap;
+  width: 30%;
+  /* border: 1px solid gray; */
   margin-block: 20px;
 }
 .upper{
-  width: 100%;
+  width: 205px;
   display: flex;
+  
   flex-direction: column;
   justify-content: center;
 }
 
 .lower{
   flex-direction: column;
-  width: 100%;
+  width: 205px;
   display: flex;
   justify-content: space-evenly;
 
